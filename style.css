@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #35424A;
+    height: 5rem;
+    border-bottom: 3px solid #a9508b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.claruswayHeader h1 {
+    color: white;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.picture {
+    background-image: url(./images/showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture h1, p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.picture h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.input {
+    background-color: #35424A;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+}
+
+.input h2 {
+    color: white;
+}
+
+.inputandbutton input, button {
+    height: 2rem;
+}
+
+.inputandbutton button {
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    /* padding: 10px; */
+    cursor: pointer;
+    width: 7rem;
+}
+
+.inputandbutton input {
+    width: 15rem;
+}
+
+.marks {
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+    padding: 0rem 2rem;
+}
+
+.mark img {
+    height: 5rem;
+    margin-bottom: 10px;
+}
+
+.mark {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+.footer {
+    background-color: #35424A;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 20px;
+}
